@@ -29,6 +29,7 @@
    },
    "homepage": "https://github.com/pviniciusm/node-typescript-express-template#readme",
    "dependencies": {
+      "@types/jsonwebtoken": "^8.5.8",
       "axios": "^0.24.0",
       "cors": "^2.8.5",
       "dotenv": "^8.6.0",
