@@ -16,7 +16,12 @@ export default class LoginUsecase implements Usecase {
 
         let tk = token.createToken(users[0].uid);
 
-        let userId = { uid: users[0].uid, access_token: tk };
+        let userId = {
+            uid: users[0].uid,
+            access_token: tk,
+            role: 'admin',
+            displayName: users[0].name,
+        };
 
         return userId;
     }
