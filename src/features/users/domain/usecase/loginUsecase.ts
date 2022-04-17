@@ -19,8 +19,8 @@ export default class LoginUsecase implements Usecase {
         let userId = {
             uid: users[0].uid,
             access_token: tk,
+            role: 'admin',
             data: {
-                role: 'admin',
                 displayName: users[0].name,
             },
         };
