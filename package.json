@@ -15,7 +15,8 @@
     "dev": "ts-node-dev --respawn --transpile-only ./src/main.ts",
     "typeorm": "npx ts-node --transpile-only ./node_modules/typeorm/cli.js",
     "postinstall": "npx tsc",
-    "start": "node ./dist/main.js"
+    "start": "node ./dist/main.js",
+    "vercel-build": "echo hello"
   },
   "repository": {
     "type": "git",
