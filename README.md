@@ -1,6 +1,6 @@
 ## App Notas
 
-Comandos uteis:
+Comandos uteis
 
 npx typeorm entity:create -n entityName
 
